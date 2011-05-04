@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.5.0
-Release:	%mkrel 7
+Release:	%mkrel 8
 Summary:	Provides missing functionality for older versions of PHP
 License:	PHP License
 Group:		Development/PHP
