@@ -3,13 +3,13 @@
 %define		upstream_name	%{_class}_%{_subclass}
 
 Name:		php-pear-%{upstream_name}
-Version:	1.5.0
-Release:	%mkrel 8
+Version:	1.6.0a3
+Release:	%mkrel 1
 Summary:	Provides missing functionality for older versions of PHP
 License:	PHP License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/PHP_Compat/
-Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tar.bz2
+Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
 Requires:	php-pear
