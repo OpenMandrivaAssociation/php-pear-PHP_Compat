@@ -2,9 +2,11 @@
 %define		_subclass	Compat
 %define		upstream_name	%{_class}_%{_subclass}
 
+%define _requires_exceptions pear(Services/JSON.php)
+
 Name:		php-pear-%{upstream_name}
 Version:	1.6.0a3
-Release:	%mkrel 1
+Release:	%mkrel 2
 Summary:	Provides missing functionality for older versions of PHP
 License:	PHP License
 Group:		Development/PHP
