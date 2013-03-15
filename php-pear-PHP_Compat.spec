@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.5.0
-Release:	%mkrel 9
+Release:	10
 Summary:	Provides missing functionality for older versions of PHP
 License:	PHP License
 Group:		Development/PHP
@@ -15,7 +15,6 @@ Requires(preun): php-pear
 Requires:	php-pear
 BuildArch:	noarch
 BuildRequires:	php-pear
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 PHP_Compat provides missing functionality in the form of Constants and
@@ -39,7 +38,6 @@ Functions:
 mv package.xml %{upstream_name}-%{version}/%{upstream_name}.xml
 
 %install
-rm -rf %{buildroot}
 
 cd %{upstream_name}-%{version}
 pear install --nodeps --packagingroot %{buildroot} %{upstream_name}.xml
@@ -52,7 +50,6 @@ install -d %{buildroot}%{_datadir}/pear/packages
 install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 
 %clean
-rm -rf %{buildroot}
 
 
 
