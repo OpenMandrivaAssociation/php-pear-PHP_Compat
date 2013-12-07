@@ -5,7 +5,7 @@
 Summary:	Provides missing functionality for older versions of PHP
 Name:		php-pear-%{modname}
 Version:	1.6.0a3
-Release:	2
+Release:	3
 License:	PHP License
 Group:		Development/PHP
 Url:		http://pear.php.net/package/PHP_Compat/
