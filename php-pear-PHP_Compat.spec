@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.6.0a3
-Release:	1
+Release:	2
 Summary:	Provides missing functionality for older versions of PHP
 License:	PHP License
 Group:		Development/PHP
