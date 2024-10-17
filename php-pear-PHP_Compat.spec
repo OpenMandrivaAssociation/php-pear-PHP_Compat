@@ -8,7 +8,7 @@ Version:	1.6.0a3
 Release:	11
 License:	PHP License
 Group:		Development/PHP
-Url:		http://pear.php.net/package/PHP_Compat/
+Url:		https://pear.php.net/package/PHP_Compat/
 Source0:	http://download.pear.php.net/package/PHP_Compat-%{version}.tgz
 BuildArch:	noarch
 BuildRequires:	php-pear
